@@ -1,0 +1,158 @@
+body
+{
+	background-color: #006080;
+}
+.nav-main
+{	
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	height: 60px;
+	background-color: #FFF;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1000;
+
+}
+.btn-toggle-nav
+{
+	width: 60px;
+	height: 100%;
+	background-image: url("https://previews.123rf.com/images/galinadarla/galinadarla1610/galinadarla161000124/67174940-web-site-menu-icon-flat-style-made-in-vector-black-and-white-icon.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor : pointer;
+}
+.btn-toggle-nav:hover
+{
+	opacity: 0.25;
+}
+.nav-main ul
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left:15px;
+	margin: 0px; 
+}
+.nav-main ul li
+{
+	list-style: none;
+	line-height: 60px;
+}
+.nav-main ul li a
+{
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: uppercase;
+	font-family: TimesNewRome;
+	font-size: 20px;
+	margin: 0px; 
+	color: #111;
+}
+.nav-side
+{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: calc(100vh - 60px);
+	width: 50px;
+	padding: 0 5px;
+	background-color: #1B1B1B
+}
+.nav-side ul
+{
+	padding: 10px;
+	visibility: hidden;
+}
+.nav-side ul li{
+	line-height: 60px;
+	list-style: none;
+	
+}
+.nav-side ul li span
+{
+	text-decoration: none;
+	padding: 0 10px
+	height: 60px;
+	display: block;
+	text-transform: uppercase;
+	color:white;
+	font-size: 16px;
+	white-space: nowrap;
+}
+.nav-side ul li a{
+	text-decoration: none;
+	padding: 0 10px
+	height: 60px;
+	display: block;
+	text-transform: uppercase;
+	color:white;
+	font-size: 16px;
+	white-space: nowrap;
+	
+}
+.nav-side ul li a:hover 
+{
+	background-color: #222;
+	
+}
+img
+{
+	display: block;
+	margin: auto; 
+	width: auto;
+	height: auto;
+	border: solid 4px;
+	border-color: black;
+	max-height: 400px;
+	max-width: 800px;
+	background-color: white;
+	-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
+}
+h1
+{
+	display:block;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	width: 100%;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color:#dada0b;	 
+}
+h2
+{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	line-height: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color:#dada0b;
+
+}
+p
+{
+	display: block;
+	margin: 10px 250px;
+	color: #5cd65c;
+	font-family: timesnewroman;
+	font-size: 20px;
+
+}
+.indent
+{
+	display: block;
+	width: 100%;
+	height: 0;
+	margin-bottom: 60px;
+}
+
